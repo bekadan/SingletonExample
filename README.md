@@ -25,8 +25,6 @@ Provides global access to settings through ConfigManager.Instance.
 
 Uses Lazy<T> to ensure thread-safe initialization.
 
-Additionally, a thread-unsafe Singleton (ConfigManagerUnsafe) is included to demonstrate what can go wrong in multi-threaded scenarios.
-
 📂 Project Structure
 ComplexSingletonExample/
 │
