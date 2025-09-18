@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Singleton": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
