@@ -1,6 +1,6 @@
 Singleton Design Pattern in C# (.NET 8)
 
-This repository demonstrates the Singleton Design Pattern in C#, using both a thread-unsafe and a thread-safe (Lazy<T>) implementation.
+This repository demonstrates the Singleton Design Pattern in C#, using a thread-safe (Lazy<T>) implementation.
 The project simulates a configuration manager that loads application settings from a JSON file and is shared across multiple services and threads.
 
 🚨 Problem
@@ -49,8 +49,8 @@ Newtonsoft.Json (for JSON parsing)
 
 Clone the repository:
 
-git clone https://github.com/your-username/ComplexSingletonExample.git
-cd ComplexSingletonExample
+git clone https://github.com/bekadan/SingletonExample.git
+cd SingletonExample
 
 
 Make sure you have .NET 8 SDK installed:
